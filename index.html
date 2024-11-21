@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D TEST</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Model Viewer Example</h1>
+    
+    <!-- Use it like any other HTML element -->
+    <main>
+        <div>
+            <model-viewer src="assets/models/studio_c_chuck_real_textures.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    
+        </div>
+        <div>
+            <model-viewer src="assets/models/studio_c_chuck_real_textures_HQ.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    
+        </div>    
+    </main>
+
+
+
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</body>
+</html>
