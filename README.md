@@ -1,3 +1,3 @@
 # 3D-test
  
-Proyecto de prueba para la libreria LocomotiveJS -> https://locomotivemtl.github.io/locomotive-scroll/
+Proyecto de prueba para la libreria de JS model-viewer -> https://modelviewer.dev/
